@@ -36,7 +36,7 @@ class IsTrueValidatorV3 extends ConstraintValidator
      *
      * @param bool            $enabled
      * @param float           $scoreThreshold
-     * @param ReCaptcha       $scoreThreshold
+     * @param ReCaptcha       $reCaptcha
      * @param RequestStack    $requestStack
      * @param LoggerInterface $logger
      */
